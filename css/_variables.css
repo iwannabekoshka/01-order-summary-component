@@ -1,0 +1,18 @@
+:root {
+    --color-white: #FFF;
+    --color-primary-pale: hsl(225, 100%, 94%);
+    --color-primary-bright: hsl(245, 75%, 52%);
+    --color-neutral-very-pale:  hsl(225, 100%, 98%);
+    --color-neutral-desaturated: hsl(224, 23%, 55%);
+    --color-neutral-dark: hsl(223, 47%, 23%);
+
+    --font-size-h1: 2.6rem;
+    --font-size-h2: 2rem;
+    --font-size-h3: 2.2rem;
+    --font-size-h4: 1.4rem;
+    --font-size-p: 1.6rem;
+
+    --font-weight-medium: 500;
+    --font-weight-bold: 700;
+    --font-weight-black: 900;
+}

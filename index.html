@@ -7,11 +7,44 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Order summary component</title>
 
-    <link rel="stylesheet" href="style.css">
+    <!--FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet">
+    <!--STYLE.CSS-->
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-<h1>koshka</h1>
+<main class="main">
+    <div class="card">
+        <div class="card__header">
+            <img src="order-summary-component-main/images/illustration-hero.svg" alt="">
+        </div>
+        <div class="card-container">
+            <div class="card__body">
+                <h3 class="card__title">Order Summary</h3>
+                <p class="card__description">You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
+                <div class="card__order card-order">
+                    <div class="card-order__logo">
+                        <img src="./order-summary-component-main/images/icon-music.svg" alt="Music is my fashion">
+                    </div>
+                    <div class="card-order__product order-product">
+                        <h4 class="order-product__title">Annual Plan</h4>
+                        <p class="order-product__price">$59.99/year</p>
+                    </div>
+                    <div class="card-order__change order-change">
+                        <a href="#" class="order-change__link">Change</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card__footer">
+                <a href="#" class="btn btn-primary">Proceed to Payment</a>
+                <a href="#" class="btn btn-light">Cancel Order</a>
+            </div>
+        </div>
+    </div>
+</main>
 
 </body>
 </html>
