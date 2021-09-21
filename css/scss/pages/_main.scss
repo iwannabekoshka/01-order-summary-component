@@ -1,3 +1,13 @@
 // -----------------------------------------------------------------------------
 // This file contains styles that are specific to the home page.
 // -----------------------------------------------------------------------------
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: $color-primary-pale;
+  height: 100vh;
+  padding: 2rem;
+}

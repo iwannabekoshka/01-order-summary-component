@@ -1,3 +1,30 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the button component.
 // -----------------------------------------------------------------------------
+
+.btn {
+  text-decoration: none;
+
+  font-size: $font-size-p;
+  font-weight: $font-weight-bold;
+  text-align: center;
+  padding: 1em;
+  line-height: 1;
+  border-radius: 1rem;
+
+  transition: .2s;
+}
+
+.btn-primary {
+  color: $color-white;
+  background-color: $color-primary-bright;
+
+  box-shadow: 0 1.5rem 3rem rgba(56, 41, 224, .3);
+}
+.btn-primary:hover {
+  opacity: .8;
+}
+
+.btn-light {
+  color: $color-neutral-desaturated;
+}

@@ -1,7 +1,24 @@
 /**
  * Basic typography style for copy text
  */
+html {
+  font-size: 62.5%;
+}
 body {
-  color: $text-color;
-  font: normal 125% / 1.4 $text-font-stack;
+  font-family: 'Red Hat Display', sans-serif;
+}
+p {
+  font-size: $font-size-p;
+}
+h1 {
+  font-size: $font-size-h1;
+}
+h2 {
+  font-size: $font-size-h2;
+}
+h3 {
+  font-size: $font-size-h3;
+}
+h4 {
+  font-size: $font-size-h4;
 }
