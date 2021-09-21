@@ -1,15 +1,21 @@
+$card-border-radius: 2rem;
+
 .card {
   max-width: 35rem;
   border-radius: 2rem;
   background-color: $color-white;
   box-shadow: 0 2rem 3rem rgba(56, 41, 224, .2);
-
-  overflow: hidden;
 }
 .card-container {
   padding: 3rem 3rem;
 }
 
+.card__header {
+  border-top-right-radius: $card-border-radius;
+  border-top-left-radius: $card-border-radius;
+
+  overflow: hidden;
+}
 .card__body {
   text-align: center;
 }

@@ -454,11 +454,16 @@ h4 {
   border-radius: 2rem;
   background-color: #fff;
   box-shadow: 0 2rem 3rem rgba(56, 41, 224, 0.2);
-  overflow: hidden;
 }
 
 .card-container {
   padding: 3rem 3rem;
+}
+
+.card__header {
+  border-top-right-radius: 2rem;
+  border-top-left-radius: 2rem;
+  overflow: hidden;
 }
 
 .card__body {
